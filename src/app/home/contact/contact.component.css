@@ -1,7 +1,73 @@
 #name {
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Londrina Shadow';
-    color: white;
-    line-height: 200px;
-  }
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Londrina Shadow';
+  color: white;
+  line-height: 200px;
+}
+
+.dekstop {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.dForm {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.row1 {
+  display: flex;
+  height: 100%;
+}
+
+.col1 {
+  width: 50%;
+  height: 100%;
+  background-color: #3E1F92;
+  border-bottom-left-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.col2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#inputField{
+  width:266px;
+  height:40px;
+  padding:10px;
+  margin-bottom:20px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+#inputFieldText{
+  width:266px;
+  padding:10px;
+  margin-bottom:20px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  resize: none;
+}
+#send{
+  width:95px;
+  height:32px;
+  background-color:#FF6B00;
+  border-radius:10px;
+  color: white;
+  text-align: center;
+}
