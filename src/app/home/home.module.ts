@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { EventsComponent } from './events/events.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -15,6 +16,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     EventsComponent,
     LandingPageComponent,
     AboutUsComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,
