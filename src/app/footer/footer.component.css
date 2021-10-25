@@ -1,0 +1,168 @@
+
+  .footer{
+    background-color: #011F5D;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  i{
+    padding: 0 5px;
+  }
+
+  .info{
+    background-color: #011F5D;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .quick-links{
+    width: 143px;
+    height: 202px;
+  }
+  .legal{
+    width: 182px;
+    height: 110px;
+  }
+
+  .address{
+    width: 453px;
+    height: 135px;
+    padding: 0 30px;
+
+  }
+
+  .contact{
+    width: 187px;
+    height: 249px;
+  }
+
+
+  @media (max-width:426px) {
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px;
+    }
+    .address{
+      padding: 0;
+    }
+    .footer{
+      padding:10px 0 0;
+    }
+    .contact{
+      width: 187px;
+      height: 200px;
+    }
+  }
+  @media (min-width: 660px) and (max-width:778px) {
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px;
+    }
+    .quick-links{
+      width: 180px;
+      margin: 0 243px 0 30px;
+    }
+    .footer{
+      padding:0;
+    }
+  }
+  @media (min-width: 455px) and (max-width:660px) {
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px;
+    }
+    .quick-links{
+      margin: 0 80px 0 30px;
+    }
+    .contact{
+      padding-left: 30px;
+    }
+    .footer{
+      padding:0;
+    }
+  }
+  @media (min-width: 426px) and (max-width:455px) {
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px;
+    }
+    .quick-links{
+      margin: 0 30px 0 30px;
+    }
+    .contact{
+      padding-left: 30px;
+    }
+    .footer{
+      padding:0;
+    }
+  }
+  @media (max-width:345px){
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px 0;
+    }
+    .legal{
+      margin: 10px 0;
+    }
+    .address{
+      margin-bottom: 10px;
+    }
+    .footer{
+      padding:10px 0 0;
+    }
+    .contact{
+      width: 187px;
+      height: 200px;
+    }
+  }
+  @media (max-width:257px) {
+    .address{
+      height: 180px;
+      margin-bottom: 10px;
+    }
+  }
+  @media (min-width: 777px) and (max-width:1022px) {
+    .info{
+      justify-content: left !important;
+      padding: 20px 10px;
+    }
+    .quick-links{
+      margin: 0 280px 0 30px;
+    }
+    .footer{
+      padding:0;
+    }
+  }
+  @media (min-width:1024px) {
+    .quick-links{
+      width: 180px;
+    }
+  }
+  .copyright{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.5px 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  }
+
+   .copyright p{
+     margin: 0;
+   }

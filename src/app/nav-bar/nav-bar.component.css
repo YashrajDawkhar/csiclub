@@ -1,0 +1,59 @@
+.navBar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 90px;
+}
+
+#dekstopProperty {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#loginDek {
+  position: absolute;
+  right: 38px;
+  height: 60px;
+
+}
+
+#loginInner {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#mloginInner{
+  padding-right:20px;
+}
+#mProperty{
+  display: flex;
+  font-size:20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+@media screen and (min-width:764px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width:764px) {
+  .dekstop {
+    display: none;
+  }
+
+  .navBar {
+    margin-left: 20px;
+  }
+}
