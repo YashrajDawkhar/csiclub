@@ -71,3 +71,41 @@
   color: white;
   text-align: center;
 }
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.mForm {
+  width:344px;
+  height: 500px;
+  background-color: white;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.mcol1{
+  width: 100%;
+  height: 100%;
+  background-color: #3E1F92;
+  border-bottom-left-radius: 29px;
+  border-top-right-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width:828px){
+  .mobile{
+    display:none;
+  }
+}
+
+@media screen and (max-width:828px){
+  .dekstop{
+    display:none;
+  }
+}

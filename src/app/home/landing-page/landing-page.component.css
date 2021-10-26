@@ -14,7 +14,7 @@
 }
 
 #image {
-  background-image: url(/assets/home/backgroundLap.webp);
+  background-image: url("~src/assets/home/backgroundLap.webp");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,7 +84,7 @@
   position:relative;
 }
 #mimage{
-  background-image: url(/assets/home/mobileBackground.webp);
+  background-image: url('~src/assets/home/mobileBackground.webp');
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
