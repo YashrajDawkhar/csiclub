@@ -23,6 +23,7 @@
   font-family: 'Londrina Shadow';
   color: white;
   line-height: 200px;
+  text-transform: capitalize;
 }
 #img{
     width:100%;

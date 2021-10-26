@@ -1,102 +1,93 @@
-h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 100px;
-  }
-  .container1{
+#name {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Londrina Shadow';
+  color: white;
+  line-height: 200px;
+  text-transform: capitalize;
+}
+
+.row1 {
+  width: 100%;
+  height: 500px;
+  overflow-x: auto;
+  position: relative;
+
+}
+
+.innerRow {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  height: 100%;
+
+}
+
+.card1 {
+  width: 300px;
+  height: 370px;
+  background-color: white;
+  position: relative;
+  margin: 30px;
+  border-radius:15px;
+}
+
+ .row1::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.4em;
+  background-color: #00000083;
+}
+
+ .row1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ .row1::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.f1{
+  height:180px;
+  background-color:blue;
+  border-radius:14px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.281);
+}
+
+.button{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button{
+  width:fit-content;
+  height:30px;
+  background-color:#FF6B00;
+  padding:15px 40px;
+  border-radius:8px;
+  display: flex;
+  align-items: center;
+  color:white;
+  cursor: pointer;
+}
+
+@media screen and (min-width:1075px) {
+  .row1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 1.875rem 1.25rem;
   }
-  #events-title{
-    text-align: center;
-    color: #fff;
+  .middletop{
+    margin-bottom:136px;
   }
-  .container1 .card{
-    height:25.0625rem;
-    width: 25.0625rem;
-    background: #fff;
-    margin: 30px 35px;
-    border-radius: 40px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  }
-  .card-container{
-    display: flex;
-    overflow: scroll;
-    white-space: nowrap;
-  }
-  .container1 .card .event-pic{
-    position: relative;
-    background: #0511F2;
-    height:13.3125rem;
-    border-radius: 40px 40px 20px 20px;
-    z-index: 1;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
-  .container1 .card .event-pic img{
-    width: 100%;
-    height: 100%;
-    border-radius: 40px 40px 20px 20px;
-  }
-  .event-info{
-    padding: 10px 30px;
-    text-align: center;
-    margin:20px 0 15px;
-  }
-  .event-info-btn{
-    text-align:center;
-  }
-  .event-info-btn p{
-    color: #0511F2;
-  }
-
-  .button-div{
-    text-align: center;
-    margin: 30px 0;
-  }
-  .btn {
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 10px;
-    border:none;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #FF6B00;
-    padding: 15px 150px;
-    text-decoration: none;
-  }
-
-  .btn:hover {
-    background: #f06000;
-    text-decoration: none;
-  }
-
-  .register-btn {
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 10px;
-    color: #0511F2;
-    font-size: 16px;
-    background: #FFFFFF;
-    padding: 10px 30px;
-    border: solid #0511F2 2px;
-    text-decoration: none;
 }
-
-  .register-btn:hover {
-    color: #fff;
-    background: #0511F2;
-    text-decoration: none;
-}
-  @media (min-width:1400px){
-      .card-container{
-        display: flex;
-        overflow: hidden;
-        white-space: nowrap;
-    }
+@media screen and (max-width:770px) {
+  .row1::-webkit-scrollbar {
+    width: 0;
+    height: 0;
   }
+}
